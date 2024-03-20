@@ -1,9 +1,8 @@
-import os
 import fire
 from git import Repo
 
 
-def auto_git_pusher(repo_path=os.getcwd()):
+def auto_git_pusher(repo_path=''):
     repo = Repo(repo_path)
     repo.git.add('-A')
     repo.index.commit("Update")
