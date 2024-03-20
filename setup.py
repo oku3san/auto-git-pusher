@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'auto-git-pusher = packages.main:auto_git_pusher',
+            'auto-git-pusher = auto_git_pusher.main:auto_git_pusher',
         ],
     },
 )
