@@ -9,4 +9,7 @@ setup(
             'auto-git-pusher = auto_git_pusher.main:auto_git_pusher',
         ],
     },
+    install_requires=[
+        'GitPython',
+    ],
 )
